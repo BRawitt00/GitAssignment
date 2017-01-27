@@ -1,0 +1,31 @@
+Question 5)
+
+  a) ub@ub:~/IdeaProjects/GitAssignment/docs$ git push
+  Username for 'https://github.com': BRawitt00
+  Password for 'https://BRawitt00@github.com': 
+  Counting objects: 4, done.
+  Delta compression using up to 4 threads.
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (4/4), 591 bytes | 0 bytes/s, done.
+  Total 4 (delta 1), reused 0 (delta 0)
+  remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+  To https://github.com/BRawitt00/GitAssignment.git
+     f88088e..3bcbec8  master -> master
+
+
+
+  b) There have been 14 commits done to the repository so far. The command used was 'git shortlog'.
+
+  c) The file .gitignore was last modified on September 15, 2016 at 10:29:34. The command used was 'git log -p -s .gitignore'.
+
+  
+  d) There were 4 changes to files within the src folder. The command used was 'git log -- src/'.
+
+  e) The git status command is just used to show the working tree. This command will show modifications to files that have been made as well as what will be committed on the next commit. The git log command does not show anything about the working tree but instead shows all the commit logs. There are many different flags and options for both to customize output.
+
+
+  f) The command 'git log -follow [filename]' would show you the commits where that file was changed. 
+
+  g) The command git log --all --grep='file' would search all the commits for the string 'file'.
+
+  h) The command to find all commits made by Alice between a time interval would be git log --all --author='Alice' --after="2016-09-01" --before="2016-09-16". This would search all the commits for the author Alice and where the dates of her commits fell between 9/01/16 and 9/16/16.
