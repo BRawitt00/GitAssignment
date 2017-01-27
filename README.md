@@ -1,4 +1,4 @@
 # GitAssignment
-Blake Rawitt 
-ber15
+Blake Rawitt\
+ber15\
 rawittt
