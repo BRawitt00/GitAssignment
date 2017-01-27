@@ -11,6 +11,7 @@ public class RoleGame {
     public static void main(String[] args) {
         Weapon sword = WeaponFactory.getWeapon("sword");
         Weapon arrow = WeaponFactory.getWeapon("arrow");
+        Weapon axe= WeaponFactory.getWeapon("axe");
 
         System.out.println("Sword has " + sword.hit() + " of damage.");
         int armor = 20;
@@ -22,6 +23,9 @@ public class RoleGame {
         armor = 20;
         System.out.println("Arrow was able to do " + arrow.hit(armor) + " of damage due to an armor with " + armor + " points.");
 
+        System.out.println("Axe has " + axe.hit() + " of damage.");
+        armor = 20;
+        System.out.println("Axe was able to do " + axe.hit(armor) + " of damage due to an armor with " + armor + " points.");
 
     }
 }
