@@ -40,9 +40,10 @@ public int hit(int armor) {
 private static int calculate()
     {
         int line_num = 2;
+        File f = new File("GitAssignment/conf/thechosenone.txt");
 
         try{
-            FileInputStream fstream = new FileInputStream("thechosenone.txt");
+            FileInputStream fstream = new FileInputStream(f);
             DataInputStream in = new DataInputStream(fstream);
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
             String str1 = br.readLine();
