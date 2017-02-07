@@ -40,7 +40,7 @@ public int hit(int armor) {
 private static int calculate()
     {
         int line_num = 2;
-        File f = new File("/home/ub/IdeaProjects/GitAssignment/conf/thechosenone.txt");
+        File f = new File("conf/thechosenone.txt");
 
         try{
             FileInputStream fstream = new FileInputStream(f);
