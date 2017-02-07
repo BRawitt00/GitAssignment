@@ -13,6 +13,9 @@ public class RoleGame {
         Weapon arrow = WeaponFactory.getWeapon("arrow");
         Weapon axe = WeaponFactory.getWeapon("axe");
         Weapon staff = WeaponFactory.getWeapon("staff");
+        Weapon chosenaxe= WeaponFactory.getWeapon("the chosen one axe");
+        Weapon ancientmstaff = WeaponFactory.getWeapon("ancient magic staff");
+
 
         System.out.println("Sword has " + sword.hit() + " of damage.");
         int armor = 20;
@@ -31,6 +34,15 @@ public class RoleGame {
         System.out.println("Staff has " + staff.hit() + " of damage.");
         armor = 20;
         System.out.println("Staff was able to do " + staff.hit(armor) + " of damage due to an armor with " + armor + " points.");
+
+        System.out.println("The Chosen One Axe has " + chosenaxe.hit() + " of damage.");
+        armor = 20;
+        System.out.println("The Chosen One Axe was able to do " + chosenaxe.hit(armor) + " of damage due to an armor with " + armor + " points.");
+
+        System.out.println("The Ancient Magic Staff has " + ancientmstaff.hit() + " of damage.");
+        armor = 20;
+        System.out.println("The Ancient Magic Staff was able to do " + ancientmstaff.hit(armor) + " of damage due to an armor with " + armor + " points.");
+
 
 
     }
